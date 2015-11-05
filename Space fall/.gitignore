@@ -1,0 +1,10 @@
+*.ini
+*.meta
+Assets/Audio
+Assets/Bitmap
+Assets/External
+Assets/Models
+ProjectSettings/*
+Library/*
+Temp/*
+
