@@ -1,12 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerAudio : MonoBehaviour {
+/**
+ * Handle the audio of the player
+ */
 
-	//Handle the player audio
-	public AudioClip audioMax;
-	void playMaxSpeedAudio()
-	{
-		GetComponent<AudioSource>().PlayOneShot(audioMax,0.5f);
-	}
+public class PlayerAudio : MonoBehaviour
+{
+    public AudioClip audioMax;
+    public AudioClip audioPoint;
+
+    public void playMaxSpeedAudio()
+    {
+        GetComponent<AudioSource>().PlayOneShot(audioMax, 0.5f);
+    }
+
+    public void playPointAudio()
+    {
+        GetComponent<AudioSource>().PlayOneShot(audioPoint, 0.7f);
+    }
 }

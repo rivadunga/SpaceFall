@@ -1,11 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class AudioController : MonoBehaviour {
 
-	void Start () {	
-	}
-	
-	void Update () {
-	}
+/**
+ *   Handle global audio actions
+ */
+
+public class AudioController : MonoBehaviour {
+    void Start()
+    {
+    }
+
+    void Update()
+    {
+    }
 }
