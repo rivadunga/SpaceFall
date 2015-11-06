@@ -3,43 +3,58 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour {
 
-	PlayerAudio audio;
+	public float aceleration = 0.1f;
+
+	private Transform   playerBody;
+	private Rigidbody   playerPhysics;
+
+
+	void Start()
+	{
+		playerBody = GameObject.Find ("Player_body").GetComponent<Transform> ();
+		playerPhysics = GetComponent<Rigidbody>();
+	}
 
 	void Update()
 	{
-		audio = GetComponent<PlayerAudio>();
-		changeDir();
 		updateMovement ();
+		changeDir();
 	}
 
+	Vector3 lastVel;
 	void updateMovement()
 	{
-		Vector3 velocity = GetComponent<Rigidbody> ().velocity;
-		Vector3 fwd = transform.TransformDirection (-Vector3.forward);
-		Debug.DrawLine (transform.position, fwd * 1000,Color.cyan);
+		Vector3 fwd = playerBody.TransformDirection (Vector3.up);
+		Vector3 normal = playerBody.TransformDirection (-Vector3.forward);
 
-		//IMPORTANT the player velocity is the result of the sum of the
-		//velocity that imitates the gravity (Vector3.down) and the 
-		//fwd vector that represents the normal force of the player 
-		//with the air
+		float GRAVITY = 3f;
 
-		Vector3 vel = (fwd + Vector3.down*1.2f) * 6f;
-		GetComponent<Rigidbody> ().velocity = vel;
-		updateParticles ();
+		playerPhysics.AddForce(new Vector3(0,fwd.y,0)*2); 
+		playerPhysics.AddForce(new Vector3(0,0,fwd.z)*1); 
+		playerPhysics.AddForce(new Vector3(normal.x,0,0)*7); 
+		playerPhysics.AddForce (Vector3.down * GRAVITY);
+
+		Debug.DrawLine (playerBody.position, normal * 1000, Color.green);
+		Debug.DrawLine (playerBody.position, fwd * 1000, Color.cyan);
+
+
+		Vector3 aceleration = (playerPhysics.velocity - lastVel) / Time.deltaTime;
+		Debug.Log (aceleration.x + " " + aceleration.y + " " + aceleration.z);
+		lastVel = playerPhysics.velocity;
 	}
 
 
-	void changeDir()
+	private void changeDir()
 	{
-		if (InputData.move_up)    GetComponent<Transform>().Rotate(Vector3.right*0.5f);
-		if (InputData.move_down)  GetComponent<Transform>().Rotate(Vector3.left*0.5f);
-		if (InputData.move_right) GetComponent<Transform> ().Rotate (Vector3.up * 0.5f);
-		if (InputData.move_left)  GetComponent<Transform>().Rotate(Vector3.down*0.5f);	
+		if (InputData.move_up)    playerBody.Rotate(Vector3.right * 2f);
+		if (InputData.move_down)  playerBody.Rotate(Vector3.left * 2f);
+		if (InputData.move_right) playerBody.Rotate (Vector3.up * 5f);
+		if (InputData.move_left)  playerBody.Rotate(Vector3.down * 5f);	
 	}
 
 
 	bool maxSpeed = false;
-	void updateParticles()
+	private void updateParticles()
 	{
 		if (GetComponent<Rigidbody> ().velocity.z > 3 && !maxSpeed) {
 			GameObject.Find ("Player_effect").GetComponent<ParticleSystem>().emissionRate = 1000;

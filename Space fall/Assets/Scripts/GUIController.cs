@@ -9,12 +9,12 @@ public class GUIController : MonoBehaviour {
 
 	void Start () 
 	{
-		score = GameObject.Find("gui_score").GetComponent<Text>();
+		//score = GameObject.Find("gui_score").GetComponent<Text>();
 		data = GetComponent<LevelData> ();
 	}
 	
 	void Update () {
-		updateElements ();
+		//updateElements ();
 	}
 
 	void updateElements()
