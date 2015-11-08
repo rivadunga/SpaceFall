@@ -22,7 +22,7 @@ public class AI : MonoBehaviour
     {
         initializeTransform();
         nodePositions = initializeShellNodes();
-        nodeEdges     = initializeShellEdges(nodePositions);
+        nodeEdges     = initializeShellEdges();
     }
 
     private void initializeTransform()
@@ -73,7 +73,7 @@ public class AI : MonoBehaviour
         return nodes;
     }
 
-    float[, ] initializeShellEdges(Vector3[] nodes)
+    float[, ] initializeShellEdges()
     {
         float[, ] edges = new float[decisionLevels * NODES_PER_LEVEL + 1, decisionLevels * NODES_PER_LEVEL + 1];
 
@@ -87,7 +87,7 @@ public class AI : MonoBehaviour
                     int child = ((j - 1) * NODES_PER_LEVEL) + 1 + w;
 
                     if (child < 0) { continue; }
-                    float distance = (nodes[parent] - nodes[child]).magnitude;
+                    float distance = (nodePositions[parent] - nodePositions[child]).magnitude;
 
                     if (distance <= currentRad) {
                         edges[parent, child] = distance;
@@ -99,27 +99,67 @@ public class AI : MonoBehaviour
     }
 
 
+    float[] updateStaticValues()
+    {
+        float[]      values      = new float[decisionLevels * NODES_PER_LEVEL + 1];
+        GameObject[] checkpoints = GameObject.FindGameObjectsWithTag("checkpoint");
+        GameObject[] meteors     = GameObject.FindGameObjectsWithTag("meteor");
+        Vector3      playerPos   = playerReference.position;
+
+        for (int j = 0; j < decisionLevels; j++) {
+            int currentRad = 100 * (j + 1);
+
+            for (int i = 0; i < NODES_PER_LEVEL; i++) {
+                int     nodeInd = (j * NODES_PER_LEVEL) + 1 + i;
+                Vector3 nodePos = playerPos + nodePositions[nodeInd];
+
+                //Ponderate checkpoint
+                for (int w = 0; w < checkpoints.Length; w++) {
+                    Vector3 checkPos   = checkpoints[w].transform.position;
+                    float   checkValue = (nodePos - checkPos).magnitude;
+                    values[nodeInd] += checkValue;
+                }
+
+                //Ponderate meteors
+                for (int w = 0; w < meteors.Length; w++) {
+                    Vector3 meteorPos   = meteors[w].transform.position;
+                    float   meteorValue = (nodePos - meteorPos).magnitude;
+                    values[nodeInd] -= meteorValue;
+                }
+            }
+        }
+        return values;
+    }
 
     void OnDrawGizmos()
     {
         //Debug
         initializeTransform();
         nodePositions = initializeShellNodes();
-        nodeEdges     = initializeShellEdges(nodePositions);
+        nodeEdges     = initializeShellEdges();
         //End debug
-
 
         Vector3 playerPos = playerReference.position;
 
-        for (int i = 0; i < nodePositions.Length; i++)
+        nodeValues = updateStaticValues();
+        float max = Mathf.Max(nodeValues);
+        nodeValues[0] = max;         //Origin
+        float min = Mathf.Min(nodeValues);
+        nodeValues[0] = min;         //Origin
+        //Debug.Log(max + " " + min + " = " + (playerPos-GameObject.FindGameObjectsWithTag("checkpoint")[0].transform.position).magnitude);
+
+        for (int i = 1; i < nodePositions.Length; i++)
         {
-            Gizmos.color = new Color(1, 1, 0, 0.1f);
+            float alpha = (nodeValues[i] - min) / (max - min);
+            Gizmos.color = new Color(alpha, 1 - alpha, 0, 1);
             Gizmos.DrawSphere(playerPos + nodePositions[i], 5);
         }
 
+
         for (int j = 0; j < nodeEdges.GetLength(0); j++) {
-            for (int i = 0; i < nodeEdges.GetLength(0); i++) {
+            for (int i = 0; i < nodeEdges.GetLength(1); i++) {
                 if (nodeEdges[i, j] > 0) {
+                    Color color;
                     Debug.DrawLine(
                         playerPos + nodePositions[i], playerPos + nodePositions[j], new Color(1, 1, 1, 0.003f));
                 }
