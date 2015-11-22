@@ -5,8 +5,11 @@ using System.Collections;
 
 public class PlayerCollision : MonoBehaviour
 {
+    public PlayerData playerData;
+
     private DataController data;
     private PlayerAudio    audio;
+
 
     void Start()
     {
@@ -16,9 +19,13 @@ public class PlayerCollision : MonoBehaviour
 
     void OnTriggerEnter(Collider trigger)
     {
-        if (trigger.name.StartsWith("obj_point")) {
+        int currentCheck = playerData.getCheckpoint();
+
+        if (trigger.name == ("checkpoint_" + currentCheck)) {
+            Debug.Log("Checkpoint");
             data.addScore(1000);
             audio.playPointAudio();
+            playerData.addCheckpoint();
         }
     }
 }

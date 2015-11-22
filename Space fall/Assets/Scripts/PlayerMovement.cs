@@ -34,13 +34,19 @@ public class PlayerMovement : MonoBehaviour
 
         float GRAVITY = 1f;
 
-        playerPhysics.AddForce(new Vector3(0, fwd.y, 0) * 1);
-        playerPhysics.AddForce(new Vector3(0, 0, fwd.z) * (-fwd.y) * 4f);
-        playerPhysics.AddForce(new Vector3(normal.x, 0, 0) * 7);
-        playerPhysics.AddForce(Vector3.down * GRAVITY);
+        /*
+         * playerPhysics.AddForce(new Vector3(0, fwd.y, 0) * 1);
+         * playerPhysics.AddForce(new Vector3(0, 0, fwd.z) * (-fwd.y) * 4f);
+         * playerPhysics.AddForce(new Vector3(normal.x, 0, 0) * 7);
+         * playerPhysics.AddForce(Vector3.down * GRAVITY);
+         */
+        Vector3 actVel = playerPhysics.velocity;
+        Vector3 newVel = new Vector3(normal.x, fwd.y - GRAVITY, fwd.z * (-fwd.y) * 4f) * 2;
 
+        playerPhysics.velocity = Vector3.Lerp(actVel, newVel, Time.deltaTime * 10);
         Debug.DrawLine(tranformBody.position, normal * 1000, Color.green);
         Debug.DrawLine(tranformBody.position, fwd * 1000, Color.cyan);
+        Debug.DrawLine(tranformBody.position, newVel * 1000, Color.magenta);
     }
 
     public void rotatePlayer(Vector3 dir)

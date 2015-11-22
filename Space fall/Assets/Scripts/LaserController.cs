@@ -29,7 +29,7 @@ public class LaserController : MonoBehaviour
         Vector3 currentPosition = playerLaserRef.position;
 
         while (InputData.shot_pressed) {
-            laser.material.mainTextureOffset = new Vector2(0, Time.time);
+          //  laser.material.mainTextureOffset = new Vector2(0, Time.time);
 
             Ray        ray = new Ray(playerLaserRef.position, playerLaserRef.forward);
             RaycastHit hit;
@@ -40,7 +40,7 @@ public class LaserController : MonoBehaviour
                 newPosition = Vector3.Lerp(currentPosition, hit.point, Time.deltaTime * 3);
             }
             else{
-                newPosition = Vector3.Lerp(currentPosition, ray.GetPoint(150), Time.deltaTime * 3);
+                newPosition = Vector3.Lerp(currentPosition, ray.GetPoint(150), Time.deltaTime * 10);
             }
 
             laser.SetPosition(1, newPosition);
