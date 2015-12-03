@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 DEC 2015 02:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 DEC 2015 12:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -227,49 +227,59 @@ Underfull \hbox (badness 1783) in paragraph at lines 387--392
 \OT1/ptm/b/n/10 Keywords: path se-lec-tion, ai, unity, rpg, rts, game
  []
 
-Missing character: There is no ñ in font ptmr7t!
 
-Underfull \vbox (badness 1048) has occurred while \output is active []
+Underfull \hbox (badness 1527) in paragraph at lines 413--414
+\OT1/ptm/m/n/12 Ad-ven-ture, Fight-ing, Puz-zle, Shooter, Sports y
+ []
 
-Missing character: There is no ñ in font ptmri7t!
-Missing character: There is no ñ in font ptmr7t!
 
-<images/robotfront.jpg, id=1, 1589.94pt x 1678.27pt>
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
+
+ []
+
+
+Underfull \hbox (badness 3354) in paragraph at lines 429--430
+[]\OT1/ptm/m/n/12 El al-go-ritmo de se-lecci[]on de caminos fue
+ []
+
+[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+<images/robotfront.jpg, id=10, 1589.94pt x 1678.27pt>
 File: images/robotfront.jpg Graphic file (type jpg)
 
 <use images/robotfront.jpg>
-Package pdftex.def Info: images/robotfront.jpg used on input line 435.
+Package pdftex.def Info: images/robotfront.jpg used on input line 444.
 (pdftex.def)             Requested size: 258.0pt x 272.31871pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 435--436
+Overfull \hbox (6.0pt too wide) in paragraph at lines 444--445
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Missing character: There is no ñ in font ptmr7t!
-[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
 <images/ship.jpg, id=11, 963.6pt x 542.025pt>
 File: images/ship.jpg Graphic file (type jpg)
  <use images/ship.jpg>
-Package pdftex.def Info: images/ship.jpg used on input line 444.
+Package pdftex.def Info: images/ship.jpg used on input line 453.
 (pdftex.def)             Requested size: 258.0pt x 145.12465pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 444--445
+Overfull \hbox (6.0pt too wide) in paragraph at lines 453--454
  [][] 
  []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 <images/can.jpg, id=12, 614.295pt x 542.025pt>
 File: images/can.jpg Graphic file (type jpg)
  <use images/can.jpg>
-Package pdftex.def Info: images/can.jpg used on input line 452.
+Package pdftex.def Info: images/can.jpg used on input line 461.
 (pdftex.def)             Requested size: 258.0pt x 227.64894pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 452--453
+Overfull \hbox (6.0pt too wide) in paragraph at lines 461--462
  [][] 
  []
 
@@ -279,10 +289,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/platform.jpg, id=13, 963.6pt x 542.025pt>
 File: images/platform.jpg Graphic file (type jpg)
  <use images/platform.jpg>
-Package pdftex.def Info: images/platform.jpg used on input line 460.
+Package pdftex.def Info: images/platform.jpg used on input line 469.
 (pdftex.def)             Requested size: 258.0pt x 145.12465pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 460--461
+Overfull \hbox (6.0pt too wide) in paragraph at lines 469--470
  [][] 
  []
 
@@ -292,10 +302,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/neways.png, id=14, 172.2435pt x 119.4864pt>
 File: images/neways.png Graphic file (type png)
  <use images/neways.png>
-Package pdftex.def Info: images/neways.png used on input line 468.
+Package pdftex.def Info: images/neways.png used on input line 477.
 (pdftex.def)             Requested size: 258.0pt x 179.00124pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 468--469
+Overfull \hbox (6.0pt too wide) in paragraph at lines 477--478
  [][] 
  []
 
@@ -306,62 +316,149 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: images/spacefall.png Graphic file (type png)
 
 <use images/spacefall.png>
-Package pdftex.def Info: images/spacefall.png used on input line 476.
+Package pdftex.def Info: images/spacefall.png used on input line 485.
 (pdftex.def)             Requested size: 258.0pt x 102.9972pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 476--477
+Overfull \hbox (6.0pt too wide) in paragraph at lines 485--486
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2 <./images/robotfront.jpg> <./images/ship.jpg> <./images/can.jpg> <./images/p
-latform.jpg>]
-Missing character: There is no ñ in font ptmr7t!
- <images/fulllife.png, id=20, 793.7655pt x 350.7504pt>
+[2 <./images/robotfront.jpg> <./images/ship.jpg>]
+<images/fulllife.png, id=20, 793.7655pt x 350.7504pt>
 File: images/fulllife.png Graphic file (type png)
 
 <use images/fulllife.png>
-Package pdftex.def Info: images/fulllife.png used on input line 486.
+Package pdftex.def Info: images/fulllife.png used on input line 495.
 (pdftex.def)             Requested size: 258.0pt x 114.00322pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 486--487
+Overfull \hbox (6.0pt too wide) in paragraph at lines 495--496
  [][] 
  []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 <images/emptylife.png, id=21, 793.7655pt x 350.7504pt>
 File: images/emptylife.png Graphic file (type png)
 
 <use images/emptylife.png>
-Package pdftex.def Info: images/emptylife.png used on input line 492.
+Package pdftex.def Info: images/emptylife.png used on input line 501.
 (pdftex.def)             Requested size: 258.0pt x 114.00322pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 492--493
+Overfull \hbox (6.0pt too wide) in paragraph at lines 501--502
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \hbox (badness 4752) in paragraph at lines 514--518
+[3 <./images/can.jpg> <./images/platform.jpg> <./images/neways.png> <./images/s
+pacefall.png>]
+Underfull \hbox (badness 4752) in paragraph at lines 517--526
 []\OT1/ptm/m/n/10 Unity Tu-to-ri-als. \OT1/ptm/m/it/10 Cre-at-ing a Scene Se-le
 c-tion Menu.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 514--518
+Underfull \hbox (badness 10000) in paragraph at lines 517--526
 \OT1/ptm/m/n/10 https://unity3d.com/learn/tutorials/modules/beginner/live-
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 514--518
+Underfull \hbox (badness 2189) in paragraph at lines 517--526
 \OT1/ptm/m/n/10 training-archive/creating-a-scene-menu. Julio 24 de 2015.
  []
 
-[3 <./images/neways.png> <./images/spacefall.png> <./images/fulllife.png> <./im
-ages/emptylife.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--526
+
+ []
+
+
+Underfull \hbox (badness 5878) in paragraph at lines 517--526
+\OT1/ptm/m/n/10 NASA. Kepler-452b: Earth's Big-ger, Older Cousin --
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--526
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--526
+\OT1/ptm/m/n/10 Wikipedia. Gleise 667 Cc.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--526
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--526
+\OT1/ptm/m/n/10 The Guardian. Ke-pler 438b: Most Earth-like planet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--526
+\OT1/ptm/m/n/10 ever dis-cov-ered could be home for alien life.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--526
+\OT1/ptm/m/n/10 http://www.theguardian.com/science/2015/jan/06/earth-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--526
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--526
+\OT1/ptm/m/n/10 http://www.creativecrash.com/maya/downloads/character-
+ []
+
+Missing character: There is no ó in font ptmr7t!
+Missing character: There is no ó in font ptmr7t!
+<images/firstsnippet.jpg, id=27, 636.3775pt x 681.54625pt>
+File: images/firstsnippet.jpg Graphic file (type jpg)
+
+<use images/firstsnippet.jpg>
+Package pdftex.def Info: images/firstsnippet.jpg used on input line 537.
+(pdftex.def)             Requested size: 258.0pt x 276.30551pt.
+
+<images/secondsnippet.jpg, id=28, 1032.85875pt x 766.865pt>
+File: images/secondsnippet.jpg Graphic file (type jpg)
+
+<use images/secondsnippet.jpg>
+Package pdftex.def Info: images/secondsnippet.jpg used on input line 538.
+(pdftex.def)             Requested size: 258.0pt x 191.55196pt.
+
+<images/thirdsnippet.jpg, id=29, 876.27374pt x 350.30875pt>
+File: images/thirdsnippet.jpg Graphic file (type jpg)
+
+<use images/thirdsnippet.jpg>
+Package pdftex.def Info: images/thirdsnippet.jpg used on input line 539.
+(pdftex.def)             Requested size: 258.0pt x 103.14241pt.
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 537--540
+[][]
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 537--540
+[]
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 537--540
+[] 
+ []
+
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -373,26 +470,27 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4
+[4 <./images/fulllife.png> <./images/emptylife.png> <./images/firstsnippet.jpg>
+ <./images/secondsnippet.jpg>] [5
 
-] (./bare_conf.aux) ) 
+ <./images/thirdsnippet.jpg>] (./bare_conf.aux) ) 
 Here is how much of TeX's memory you used:
- 2313 strings out of 493089
- 38391 string characters out of 6134842
+ 2329 strings out of 493089
+ 38795 string characters out of 6134842
  103798 words of memory out of 5000000
- 5790 multiletter control sequences out of 15000+600000
+ 5803 multiletter control sequences out of 15000+600000
  34192 words of font info for 61 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 37i,7n,23p,1026b,235s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8
-r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_conf.pdf (4 pages, 2430022 bytes).
+ 37i,7n,23p,1129b,235s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf
+-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/typ
+e1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/tim
+es/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on bare_conf.pdf (5 pages, 2574350 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 26 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

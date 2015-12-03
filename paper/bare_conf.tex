@@ -386,7 +386,7 @@ Email: jginsburgn@gmail.com}}
 % in the abstract
 \begin{abstract}
 
-This document intends to put forward an explanation for the creation of the game called Space Fall. It is a detailed report and is accompanied by images and pseudocode. The game uses a new technique of path selection for characters in a three-dimensional environment; it can be categorised as both, an RPG and an RTS, among others. The developing game engine was Unity 5.\\ \\
+This document intends to put forward an explanation for the creation of the game called Space Fall. It is a detailed report and is accompanied by images and C\# code. The game uses a new technique of path selection for characters in a three-dimensional environment; it can be categorised as both, an RPG and an RTS, among others. The developing game engine was Unity 5.\\ \\
 Keywords: path selection, ai, unity, rpg, rts, game development.\\
 Palabras Clave: selecci\'{o}n de caminos, ia, unity, desarrollo de videojuegos.
 \end{abstract}
@@ -409,7 +409,8 @@ Palabras Clave: selecci\'{o}n de caminos, ia, unity, desarrollo de videojuegos.
 
 
 \section{Introducci\'{o}n}
-Space Fall es un videojuego para dispositivos m\'{o}viles, de simulaci\'{o}n. Del g\'{e}nero RPG, RTS, Action, Adventure, Fighting, Puzzle, Shooter, Sports y Simulaci\'{o}n arcade, el videojuego est\'{a} desarrollado en una \'{e}poca futurista donde la misi\'{o}n es recolectar informaci\'{o}n de diversos planetas para que la especie humana prevalezca. El \'{u}nico objetivo del juego es el de entretener a los usuarios de cualquier g\'{e}nero y edad, y que disfruten combatiendo obst\'{a}culos para ser h\'{e}roes. Cada misi\'{o}n consiste en una expedici\'{o}n a\'{e}rea muy similar a un salto en ca\'{i}da libre. El personaje principal es un humanoide, manipulado por el usuario, ser\'{a} el encargado de cumplir las tres diferentes misiones, una misi\'{o}n por cada planeta. Para crear el videojuego se us\'{o} el engine Unity versi\'{o}n 5.0 y se tomaron en cuenta diferentes aspectos como: el diseño gr\'{a}fico de la interfaz, personaje y objetos, y un algoritmo utilizado para su desarrollo. 
+
+Space Fall es un videojuego para ordenadores de simulaci\'{o}n. La primer versi\'{o}n de este juego est\'{a} para el computador aplicando las teclas ?WASD? para su movilidad. Del g\'{e}nero RPG, RTS, Action, Adventure, Fighting, Puzzle, Shooter, Sports y Simulaci\'{o}n arcade, el videojuego est\'{a} desarrollado en una \'{e}poca futurista donde la misi\'{o}n es recolectar informaci\'{o}n de diversos planetas para que la especie humana prevalezca. El \'{u}nico objetivo del juego es el de entretener a los usuarios de cualquier g\'{e}nero y edad, y que disfruten combatiendo obst\'{a}culos para ser h\'{e}roes. Cada misi\'{o}n consiste en una expedici\'{o}n a\'{e}rea muy similar a un salto en ca\'{i}da libre. El personaje principal es un humanoide, manipulado por el usuario, ser\'{a} el encargado de cumplir las tres diferentes misiones, una misi\'{o}n por cada planeta. Para crear el videojuego se us\'{o} el engine Unity versi\'{o}n 5.0 y se tomaron en cuenta diferentes aspectos como: el dise\~{n}o gr\'{a}fico de la interfaz, personaje y objetos, y un algoritmo utilizado para su desarrollo.\\
 
 \hfill E.R., A.E., y J.G.
  
@@ -425,9 +426,17 @@ B\'{a}sicamente se colocaron los objetos aludidos anteriormente en la escena de 
 
 \subsection{Algoritmo de Selecci\'{o}n de Caminos}
 
-\subsection{Diseño Gr\'{a}fico}
+El algoritmo de selecci\'{o}n de caminos fue dise\~{n}ado mediante t\'{e}cnicas de dise\~{n}o que se separan modularmente. Estos fueron: algoritmos \'{a}vidos y backtracking. Algoritmos \'{a}vidos se refiere al paradigma de dise\~{n}o que propone tomar la soluci\'{o}n \'{o}ptima local. Backtracking es el nombre que se le da a las implementaciones recursivas en grafos por profundidad.
 
-El personaje principal que se usa en el videojuego, es un humanoide en 3D para crear animaciones cercanas a la realidad de la ca\'{i}da libre; cuando corre desde la nave espacial de Neways, cuando est\'{a} cayendo por el espacio y cuando esquiva hacia la izquierda y derecha. Con el fin de que el usuario se sienta atra\'{i}do y a gusto con el diseño del personaje, se escogi\'{o} un humanoide que fuera amigable y de la mano con la historia del juego. El nombre del humanoide que se obtuvo de la p\'{a}gina web Creative Crash es roboter 2.0, animado en el programa de Autodesk, Maya 2015. 
+De manera breve, el algoritmo establece, en un espacio tridimensional, una esfera con centro en el personaje principal. Dicha esfera es cortada por planos en varias direcciones con v\'{e}rtice de uni\'{o}n en el mismo centro que la misma. Esto produce un n\'{u}mero de intersecciones, las cuales se toman como nodos de un grafo y las aristas se establecen de manera que los nodos no queden desconectados, sin llegar a ser una malla.
+
+Respecto a los algoritmos utilizados en el videojuegos, se utilizar\'{a} una adaptaci\'{o}n del algoritmo Dijkstra con el objetivo de brindar mayor realismo a las trayectorias seguidas por los enemigos. De igual manera, se emplear\'{a} el Algoritmo de interpolaci\'{o}n de Newton para ejecutar aproximaciones que permitan ponderar la dificultad del juego.
+
+La metodolog\'{i}a que utilizaremos durante el desarrollo del videojuego ser\'{a} Scrum. Para adaptar esta metodolog\'{i}a al videojuegos, dise\~{n}aremos cada Sprint para que se adecuen a las etapa del juego, ya sea l\'{o}gica (Programaci\'{o}n y testing), gr\'{a}fica (Modelado, animaci\'{o}n, etc) o integradora. Asimismo, asignaremos los roles del equipo de acuerdo a las caracter\'{i}sticas de la iteraci\'{o}n , por ejemplo, si estamos en un Sprint que requiera muchas cuestiones gr\'{a}ficas el ScrumMaster ser\'{a} el dise\~{n}ador (Alejandra) y los programadores formar\'{i}an parte del equipo de desarrollo.
+
+\subsection{Dise\~{n}o Gr\'{a}fico}
+
+El personaje principal que se usa en el videojuego, es un humanoide en 3D para crear animaciones cercanas a la realidad de la ca\'{i}da libre; cuando corre desde la nave espacial de Neways, cuando est\'{a} cayendo por el espacio y cuando esquiva hacia la izquierda y derecha. Con el fin de que el usuario se sienta atra\'{i}do y a gusto con el dise\~{n}o del personaje, se escogi\'{o} un humanoide que fuera amigable y de la mano con la historia del juego. El nombre del humanoide que se obtuvo de la p\'{a}gina web Creative Crash es roboter 2.0, animado en el programa de Autodesk, Maya 2015. 
 
 \begin{figure}[h]
 \caption{Humanoide}
@@ -436,7 +445,7 @@ El personaje principal que se usa en el videojuego, es un humanoide en 3D para c
 \end{figure}
 
 Asimismo los dem\'{a}s objetos est\'{a}n creados con el mismo programa, sus colores y formas fueron escogidos as\'{i} para que tuvieran armon\'{i}a con el personaje principal de la historia y la historia. 
-La nave espacial est\'{a} basada en los diseños de las naves futuristas que aparecen en pel\'{i}culas como Star Trek o Star Wars.
+La nave espacial est\'{a} basada en los dise\~{n}os de las naves futuristas que aparecen en pel\'{i}culas como Star Trek o Star Wars.
 
 \begin{figure}[h]
 \caption{Nave Espacial}
@@ -478,7 +487,7 @@ El logotipo del videojuego fue creado de acuerdo con la idea futurista y espacia
 
 Se usa de los assets de Unity el skybox en 2D del espacio y un mundo en 3D del que el humanoide tiene que recolectar la informaci\'{o}n pero mientras lo hace aparecen asteroides que tiene que esquivar y hay unos aros azules que cambian de color a verde cuando el humanoide entra en ellos para obtener puntos
 
-Para administrar y almacenar la vida del personaje se crea un control. Su diseño est\'{a} basado en la cara del humanoide, su ojo es donde se almacena la vida poni\'{e}ndolo de color azul o blanco cuando est\'{a} vac\'{i}a, todo para generar armon\'{i}a en la interfaz
+Para administrar y almacenar la vida del personaje se crea un control. Su dise\~{n}o est\'{a} basado en la cara del humanoide, su ojo es donde se almacena la vida poni\'{e}ndolo de color azul o blanco cuando est\'{a} vac\'{i}a, todo para generar armon\'{i}a en la interfaz
 
 \begin{figure}[h]
 \caption{Vida Llena}
@@ -492,11 +501,6 @@ Para administrar y almacenar la vida del personaje se crea un control. Su diseño
 \includegraphics[width=0.5\textwidth]{emptylife}
 \end{figure}
 
-
-\section{Resultados}
-
-
-
 \section{Conclusi\'{o}n}
 
 La realizaci\'{o}n del presente videojuego fue altamente multidisciplinaria. Como equipo central, se unieron las habilidades de una aspirante a la Licenciatura de Artes Digitales, Alejandra Espidio, y las de dos aspirantes a la Ingenier\'{i}a en Tecnolog\'{i}as Computacionales, Erick Rivas y Jonathan Ginsburg. Tambi\'{e}n se utilizaron los conocimientos de terceros a los que se alude en los agradecimientos. Por tanto, Space Fall es un juego de arte e ingenier\'{i}a en armon\'{i}a. Tiene implementaciones de algoritmos innovadores y modelos con mucho toque art\'{i}stico.
@@ -507,19 +511,32 @@ Se espera continuar con el desarrollo del algoritmo central de nuestro videojueg
 
 \section{Bibliograf\'{i}a}
 
-
 \begingroup
 
     \fontsize{10pt}{12pt}\selectfont
     Unity Tutorials. \emph{Creating a Scene Selection Menu.} https://unity3d.com/learn/tutorials/modules/beginner/live-training-archive/creating-a-scene-menu. Julio 24 de 2015. Web.
-    \\
-    Siguiente referencia...
+    \\ \\
+    NASA. Kepler-452b: Earth's Bigger, Older Cousin -- Briefing Materials. https://www.nasa.gov/keplerbriefing0723.
+    \\ \\
+    Wikipedia. Gleise 667 Cc. https://en.wikipedia.org/wiki/Gliese\_667\_Cc.
+    \\ \\
+    The Guardian. Kepler 438b: Most Earth-like planet ever discovered could be home for alien life. http://www.theguardian.com/science/2015/jan/06/earth-like-planet-alien-life-kepler-438b.
+    \\ \\
+    http://www.creativecrash.com/maya/downloads/character-rigs/c/roboter
+
 \endgroup
-    
+
+\section*{Agradecimientos}
+
+Para la realizaci\'{o}n del presente videojuego fue crucial contar con la ayuda y el entusiasmo de varias personas. La experiencia con las diversas herramientas que fueron utilizadas por parte de los que ayudaron fue imprescindible. Por otra parte, su amor por la materia correspondiente nos llev\'{o} a aprender de ellos. Mencionamos a algunas de estas personas: Samuel Ginsburg, Moises Alencastre y, el estudiante de doctorado, Octavio.
 
 \section{Anexos}
-%HAY QUE PONER AQUI LOS PSEUDOCODIGOS
 
+Código de selección de caminos en C\#: 
+
+\includegraphics[width=0.5\textwidth]{firstsnippet}
+\includegraphics[width=0.5\textwidth]{secondsnippet}
+\includegraphics[width=0.5\textwidth]{thirdsnippet}
 
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.
@@ -618,9 +635,6 @@ Se espera continuar con el desarrollo del algoritmo central de nuestro videojueg
 
 
 % use section* for acknowledgment
-\section*{Agradecimientos}
-
-Para la realizaci\'{o}n del presente videojuego fue crucial contar con la ayuda y el entusiasmo de varias personas. La experiencia con las diversas herramientas que fueron utilizadas por parte de los que ayudaron fue imprescindible. Por otra parte, su amor por la materia correspondiente nos llev\'{o} a aprender de ellos. Mencionamos a algunas de estas personas: Samuel Ginsburg, Moises Alencastre y, el estudiante de doctorado, Octavio.
 
 % trigger a \newpage just before the given reference
 % number - used to balance the columns on the last page
