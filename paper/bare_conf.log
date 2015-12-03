@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 DEC 2015 01:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 DEC 2015 01:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -26,18 +26,13 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 -- Using 8.5in x 11in (letter) paper.
 -- Using PDF output.
 \@IEEEnormalsizeunitybaselineskip=\dimen105
--- This is a 10 point document.
+-- This is a 12 point document.
 \CLASSINFOnormalsizebaselineskip=\dimen106
 \CLASSINFOnormalsizeunitybaselineskip=\dimen107
 \IEEEnormaljot=\dimen108
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
@@ -55,24 +50,24 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <22> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <22> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
@@ -161,7 +156,7 @@ LaTeX Font Info:    ... okay on input line 319.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 319.
 LaTeX Font Info:    ... okay on input line 319.
 
--- Lines per column: 56 (exact).
+-- Lines per column: 48 (exact).
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count95
@@ -234,14 +229,13 @@ Missing character: There is no é in font ptmr7t!
 Missing character: There is no é in font ptmr7t!
 Missing character: There is no ó in font ptmb7t!
 
-Underfull \hbox (badness 6204) in paragraph at lines 387--392
-[]\OT1/ptm/b/it/9 Abstract\OT1/ptm/b/n/9 ---This doc-u-ment in-tends to put for
--ward an
+Underfull \hbox (badness 10000) in paragraph at lines 387--392
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--392
-
+Underfull \hbox (badness 1783) in paragraph at lines 387--392
+\OT1/ptm/b/n/10 Keywords: path se-lec-tion, ai, unity, rpg, rts, game
  []
 
 Missing character: There is no ó in font ptmrc7t!
@@ -266,6 +260,8 @@ Missing character: There is no ó in font ptmr7t!
 Missing character: There is no ó in font ptmr7t!
 Missing character: There is no ñ in font ptmr7t!
 Missing character: There is no á in font ptmr7t!
+Missing character: There is no ú in font ptmri7t!
+Missing character: There is no ó in font ptmri7t!
 Missing character: There is no ñ in font ptmri7t!
 Missing character: There is no á in font ptmri7t!
 Missing character: There is no í in font ptmr7t!
@@ -274,14 +270,18 @@ Missing character: There is no í in font ptmr7t!
 Missing character: There is no ñ in font ptmr7t!
 Missing character: There is no ó in font ptmr7t!
 Missing character: There is no á in font ptmr7t!
+
+Underfull \vbox (badness 1048) has occurred while \output is active []
+
+
 <images/robotfront.jpg, id=1, 1589.94pt x 1678.27pt>
 File: images/robotfront.jpg Graphic file (type jpg)
 
 <use images/robotfront.jpg>
-Package pdftex.def Info: images/robotfront.jpg used on input line 427.
+Package pdftex.def Info: images/robotfront.jpg used on input line 431.
 (pdftex.def)             Requested size: 258.0pt x 272.31871pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 427--428
+Overfull \hbox (6.0pt too wide) in paragraph at lines 431--432
  [][] 
  []
 
@@ -298,10 +298,10 @@ Missing character: There is no í in font ptmr7t!
 <images/ship.jpg, id=2, 963.6pt x 542.025pt>
 File: images/ship.jpg Graphic file (type jpg)
  <use images/ship.jpg>
-Package pdftex.def Info: images/ship.jpg used on input line 436.
+Package pdftex.def Info: images/ship.jpg used on input line 440.
 (pdftex.def)             Requested size: 258.0pt x 145.12465pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 436--437
+Overfull \hbox (6.0pt too wide) in paragraph at lines 440--441
  [][] 
  []
 
@@ -313,10 +313,10 @@ Missing character: There is no ó in font ptmr7t!
 <images/can.jpg, id=3, 614.295pt x 542.025pt>
 File: images/can.jpg Graphic file (type jpg)
  <use images/can.jpg>
-Package pdftex.def Info: images/can.jpg used on input line 444.
+Package pdftex.def Info: images/can.jpg used on input line 448.
 (pdftex.def)             Requested size: 258.0pt x 227.64894pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 444--445
+Overfull \hbox (6.0pt too wide) in paragraph at lines 448--449
  [][] 
  []
 
@@ -328,10 +328,10 @@ Missing character: There is no á in font ptmr7t!
 <images/platform.jpg, id=4, 963.6pt x 542.025pt>
 File: images/platform.jpg Graphic file (type jpg)
  <use images/platform.jpg>
-Package pdftex.def Info: images/platform.jpg used on input line 452.
+Package pdftex.def Info: images/platform.jpg used on input line 456.
 (pdftex.def)             Requested size: 258.0pt x 145.12465pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 452--453
+Overfull \hbox (6.0pt too wide) in paragraph at lines 456--457
  [][] 
  []
 
@@ -343,10 +343,10 @@ Missing character: There is no ó in font ptmr7t!
 <images/neways.png, id=5, 172.2435pt x 119.4864pt>
 File: images/neways.png Graphic file (type png)
  <use images/neways.png>
-Package pdftex.def Info: images/neways.png used on input line 460.
+Package pdftex.def Info: images/neways.png used on input line 464.
 (pdftex.def)             Requested size: 258.0pt x 179.00124pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 460--461
+Overfull \hbox (6.0pt too wide) in paragraph at lines 464--465
  [][] 
  []
 
@@ -357,14 +357,18 @@ Missing character: There is no í in font ptmr7t!
 Missing character: There is no é in font ptmr7t!
 Missing character: There is no á in font ptmr7t!
 Missing character: There is no í in font ptmr7t!
-<images/spacefall.png, id=7, 231.7458pt x 92.5056pt>
+[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+<images/spacefall.png, id=16, 231.7458pt x 92.5056pt>
 File: images/spacefall.png Graphic file (type png)
 
 <use images/spacefall.png>
-Package pdftex.def Info: images/spacefall.png used on input line 468.
+Package pdftex.def Info: images/spacefall.png used on input line 472.
 (pdftex.def)             Requested size: 258.0pt x 102.9972pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 468--469
+Overfull \hbox (6.0pt too wide) in paragraph at lines 472--473
  [][] 
  []
 
@@ -372,24 +376,20 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 468--469
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Missing character: There is no ó in font ptmr7t!
-[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
- <./images/robotfront.jpg>]
 Missing character: There is no ñ in font ptmr7t!
 Missing character: There is no á in font ptmr7t!
 Missing character: There is no é in font ptmr7t!
 Missing character: There is no á in font ptmr7t!
 Missing character: There is no í in font ptmr7t!
 Missing character: There is no í in font ptmr7t!
- <images/fulllife.png, id=17, 793.7655pt x 350.7504pt>
+<images/fulllife.png, id=17, 793.7655pt x 350.7504pt>
 File: images/fulllife.png Graphic file (type png)
 
 <use images/fulllife.png>
-Package pdftex.def Info: images/fulllife.png used on input line 478.
+Package pdftex.def Info: images/fulllife.png used on input line 482.
 (pdftex.def)             Requested size: 258.0pt x 114.00322pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 478--479
+Overfull \hbox (6.0pt too wide) in paragraph at lines 482--483
  [][] 
  []
 
@@ -401,22 +401,28 @@ Missing character: There is no í in font ptmr7t!
 File: images/emptylife.png Graphic file (type png)
 
 <use images/emptylife.png>
-Package pdftex.def Info: images/emptylife.png used on input line 484.
+Package pdftex.def Info: images/emptylife.png used on input line 488.
 (pdftex.def)             Requested size: 258.0pt x 114.00322pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 484--485
+Overfull \hbox (6.0pt too wide) in paragraph at lines 488--489
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+Missing character: There is no ó in font ptmrc7t!
+Missing character: There is no í in font ptmrc7t!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 633.
+(Font)              <12> on input line 502.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 633.
+(Font)              <8> on input line 502.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 633.
+(Font)              <6> on input line 502.
+Missing character: There is no ó in font ptmr7t!
+Missing character: There is no ó in font ptmr7t!
+[2 <./images/robotfront.jpg> <./images/ship.jpg> <./images/can.jpg> <./images/p
+latform.jpg>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -428,24 +434,22 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2 <./images/ship.jpg> <./images/can.jpg> <./images/platform.jpg> <./images/new
-ays.png> <./images/spacefall.png> <./images/fulllife.png>] [3
-
- <./images/emptylife.png>] (./bare_conf.aux) ) 
+[3 <./images/neways.png> <./images/spacefall.png> <./images/fulllife.png> <./im
+ages/emptylife.png>] (./bare_conf.aux) ) 
 Here is how much of TeX's memory you used:
- 2331 strings out of 493089
- 38619 string characters out of 6134842
- 104788 words of memory out of 5000000
- 5803 multiletter control sequences out of 15000+600000
- 37650 words of font info for 71 fonts, out of 8000000 for 9000
+ 2328 strings out of 493089
+ 38560 string characters out of 6134842
+ 103798 words of memory out of 5000000
+ 5798 multiletter control sequences out of 15000+600000
+ 35850 words of font info for 69 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  37i,7n,23p,945b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-di
-st/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/
-urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/
-utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pf
-b></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_conf.pdf (3 pages, 2426022 bytes).
+{/usr/local/texlive/2015/texmf-dist/fon
+ts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/urw/ti
+mes/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmbi8
+a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on bare_conf.pdf (3 pages, 2426676 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
