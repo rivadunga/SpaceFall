@@ -52,6 +52,10 @@
 
 
 \documentclass[conference]{IEEEtran}
+
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
 % Some Computer Society conferences also require the compsoc mode option,
 % but others use the standard conference format.
 %
@@ -411,8 +415,74 @@ Space Fall es un videojuego para dispositivos m\'{o}viles, de simulación. Del gé
  
 \hfill Diciembre 3, 2015
 
-\subsection{Subsection Heading Here}
-Subsection text here.
+\section{Procedimiento}
+
+\subsection{Diseño Gráfico}
+
+El personaje principal que se usa en el videojuego, es un humanoide en 3D para crear animaciones cercanas a la realidad de la caída libre; cuando corre desde la nave espacial de Neways, cuando está cayendo por el espacio y cuando esquiva hacia la izquierda y derecha. Con el fin de que el usuario se sienta atraído y a gusto con el diseño del personaje, se escogió un humanoide que fuera amigable y de la mano con la historia del juego. El nombre del humanoide que se obtuvo de la página web Creative Crash es roboter 2.0, animado en el programa de Autodesk, Maya 2015. 
+
+\begin{figure}[h]
+\caption{Humanoide}
+\centering
+\includegraphics[width=0.5\textwidth]{robotfront}
+\end{figure}
+
+Asimismo los demás objetos están creados con el mismo programa, sus colores y formas fueron escogidos así para que tuvieran armonía con el personaje principal de la historia y la historia. 
+La nave espacial está basada en los diseños de las naves futuristas que aparecen en películas como Star Trek o Star Wars.
+
+\begin{figure}[h]
+\caption{Nave Espacial}
+\centering
+\includegraphics[width=0.5\textwidth]{ship}
+\end{figure}
+
+Para que el personaje obtenga la energía, necesita capturar las latas de aceite que el programa Neways le pone en su camino y poder terminar la misión
+
+\begin{figure}[h]
+\caption{Lata de Aceitel}
+\centering
+\includegraphics[width=0.5\textwidth]{can}
+\end{figure}
+
+Cuando el humanoide termine la misión aterrizará en una plataforma de Neways
+
+\begin{figure}[h]
+\caption{Plataforma de Aterrizaje}
+\centering
+\includegraphics[width=0.5\textwidth]{platform}
+\end{figure}
+
+Los logotipos están creados con el programa de Adobe Illustrator. Neways es creado por la NASA para cumplir la misión de que la especie humana prevalezca, por eso su, logo simula un planeta y contiene un aro, haciendo que el logo se parezca al de la NASA.
+
+\begin{figure}[h]
+\caption{Logo de Neways}
+\centering
+\includegraphics[width=0.5\textwidth]{neways}
+\end{figure}
+
+El logotipo del videojuego fue creado de acuerdo con la idea futurista y espacial. La tipografía que se usa, SPACE AGE, y el color verde hacen énfasis a la idea además de que crea armonía con la interfaz
+
+\begin{figure}[h]
+\caption{Logo de Spacefall}
+\centering
+\includegraphics[width=0.5\textwidth]{spacefall}
+\end{figure}
+
+Se usa de los assets de Unity el skybox en 2D del espacio y un mundo en 3D del que el humanoide tiene que recolectar la información pero mientras lo hace aparecen asteroides que tiene que esquivar y hay unos aros azules que cambian de color a verde cuando el humanoide entra en ellos para obtener puntos
+
+Para administrar y almacenar la vida del personaje se crea un control. Su diseño está basado en la cara del humanoide, su ojo es donde se almacena la vida poniéndolo de color azul o blanco cuando está vacía, todo para generar armonía en la interfaz
+
+\begin{figure}[h]
+\caption{Vida Llena}
+\centering
+\includegraphics[width=0.5\textwidth]{fulllife}
+\end{figure}
+
+\begin{figure}[h]
+\caption{Vida Vacía}
+\centering
+\includegraphics[width=0.5\textwidth]{emptylife}
+\end{figure}
 
 
 \subsubsection{Subsubsection Heading Here}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 DEC 2015 00:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 DEC 2015 01:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -113,23 +113,116 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtmpitemindent=\dimen124
 \c@IEEEbiography=\count93
 \@IEEEtranrubishbin=\box27
-) (./bare_conf.aux)
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count94
+))
+\Gin@req@height=\dimen125
+\Gin@req@width=\dimen126
+)
+(./bare_conf.aux)
 \openout1 = `bare_conf.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 315.
-LaTeX Font Info:    ... okay on input line 315.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 319.
+LaTeX Font Info:    ... okay on input line 319.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 319.
+LaTeX Font Info:    ... okay on input line 319.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 319.
+LaTeX Font Info:    ... okay on input line 319.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 319.
+LaTeX Font Info:    ... okay on input line 319.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 319.
+LaTeX Font Info:    ... okay on input line 319.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 319.
+LaTeX Font Info:    ... okay on input line 319.
 
 -- Lines per column: 56 (exact).
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count95
+\scratchdimen=\dimen127
+\scratchbox=\box28
+\nofMPsegments=\count96
+\nofMParguments=\count97
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count98
+\MPscratchDim=\dimen128
+\MPnumerator=\count99
+\makeMPintoPDFobject=\count100
+\everyMPtoPDFconversion=\toks17
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Missing character: There is no é in font ptmr7t!
 Missing character: There is no é in font ptmr7t!
 Missing character: There is no é in font ptmr7t!
@@ -141,13 +234,13 @@ Missing character: There is no é in font ptmr7t!
 Missing character: There is no é in font ptmr7t!
 Missing character: There is no ó in font ptmb7t!
 
-Underfull \hbox (badness 6204) in paragraph at lines 383--388
+Underfull \hbox (badness 6204) in paragraph at lines 387--392
 []\OT1/ptm/b/it/9 Abstract\OT1/ptm/b/n/9 ---This doc-u-ment in-tends to put for
 -ward an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--388
+Underfull \hbox (badness 10000) in paragraph at lines 387--392
 
  []
 
@@ -173,12 +266,157 @@ Missing character: There is no ó in font ptmr7t!
 Missing character: There is no ó in font ptmr7t!
 Missing character: There is no ñ in font ptmr7t!
 Missing character: There is no á in font ptmr7t!
+Missing character: There is no ñ in font ptmri7t!
+Missing character: There is no á in font ptmri7t!
+Missing character: There is no í in font ptmr7t!
+Missing character: There is no á in font ptmr7t!
+Missing character: There is no í in font ptmr7t!
+Missing character: There is no ñ in font ptmr7t!
+Missing character: There is no ó in font ptmr7t!
+Missing character: There is no á in font ptmr7t!
+<images/robotfront.jpg, id=1, 1589.94pt x 1678.27pt>
+File: images/robotfront.jpg Graphic file (type jpg)
+
+<use images/robotfront.jpg>
+Package pdftex.def Info: images/robotfront.jpg used on input line 427.
+(pdftex.def)             Requested size: 258.0pt x 272.31871pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 427--428
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Missing character: There is no á in font ptmr7t!
+Missing character: There is no á in font ptmr7t!
+Missing character: There is no í in font ptmr7t!
+Missing character: There is no í in font ptmr7t!
+Missing character: There is no á in font ptmr7t!
+Missing character: There is no ñ in font ptmr7t!
+Missing character: There is no í in font ptmr7t!
+<images/ship.jpg, id=2, 963.6pt x 542.025pt>
+File: images/ship.jpg Graphic file (type jpg)
+ <use images/ship.jpg>
+Package pdftex.def Info: images/ship.jpg used on input line 436.
+(pdftex.def)             Requested size: 258.0pt x 145.12465pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 436--437
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Missing character: There is no í in font ptmr7t!
+Missing character: There is no ó in font ptmr7t!
+<images/can.jpg, id=3, 614.295pt x 542.025pt>
+File: images/can.jpg Graphic file (type jpg)
+ <use images/can.jpg>
+Package pdftex.def Info: images/can.jpg used on input line 444.
+(pdftex.def)             Requested size: 258.0pt x 227.64894pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 444--445
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Missing character: There is no ó in font ptmr7t!
+Missing character: There is no á in font ptmr7t!
+<images/platform.jpg, id=4, 963.6pt x 542.025pt>
+File: images/platform.jpg Graphic file (type jpg)
+ <use images/platform.jpg>
+Package pdftex.def Info: images/platform.jpg used on input line 452.
+(pdftex.def)             Requested size: 258.0pt x 145.12465pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 452--453
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Missing character: There is no á in font ptmr7t!
+Missing character: There is no ó in font ptmr7t!
+<images/neways.png, id=5, 172.2435pt x 119.4864pt>
+File: images/neways.png Graphic file (type png)
+ <use images/neways.png>
+Package pdftex.def Info: images/neways.png used on input line 460.
+(pdftex.def)             Requested size: 258.0pt x 179.00124pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 460--461
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Missing character: There is no í in font ptmr7t!
+Missing character: There is no é in font ptmr7t!
+Missing character: There is no á in font ptmr7t!
+Missing character: There is no í in font ptmr7t!
+<images/spacefall.png, id=7, 231.7458pt x 92.5056pt>
+File: images/spacefall.png Graphic file (type png)
+
+<use images/spacefall.png>
+Package pdftex.def Info: images/spacefall.png used on input line 468.
+(pdftex.def)             Requested size: 258.0pt x 102.9972pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 468--469
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Missing character: There is no ó in font ptmr7t!
+[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <./images/robotfront.jpg>]
+Missing character: There is no ñ in font ptmr7t!
+Missing character: There is no á in font ptmr7t!
+Missing character: There is no é in font ptmr7t!
+Missing character: There is no á in font ptmr7t!
+Missing character: There is no í in font ptmr7t!
+Missing character: There is no í in font ptmr7t!
+ <images/fulllife.png, id=17, 793.7655pt x 350.7504pt>
+File: images/fulllife.png Graphic file (type png)
+
+<use images/fulllife.png>
+Package pdftex.def Info: images/fulllife.png used on input line 478.
+(pdftex.def)             Requested size: 258.0pt x 114.00322pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 478--479
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Missing character: There is no í in font ptmr7t!
+<images/emptylife.png, id=18, 793.7655pt x 350.7504pt>
+File: images/emptylife.png Graphic file (type png)
+
+<use images/emptylife.png>
+Package pdftex.def Info: images/emptylife.png used on input line 484.
+(pdftex.def)             Requested size: 258.0pt x 114.00322pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 484--485
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 563.
+(Font)              <8> on input line 633.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 563.
+(Font)              <6> on input line 633.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 563.
+(Font)              <5> on input line 633.
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -190,29 +428,27 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+[2 <./images/ship.jpg> <./images/can.jpg> <./images/platform.jpg> <./images/new
+ays.png> <./images/spacefall.png> <./images/fulllife.png>] [3
 
-
-
-]
-(./bare_conf.aux) ) 
+ <./images/emptylife.png>] (./bare_conf.aux) ) 
 Here is how much of TeX's memory you used:
- 1033 strings out of 493089
- 18891 string characters out of 6134842
- 78671 words of memory out of 5000000
- 4580 multiletter control sequences out of 15000+600000
+ 2331 strings out of 493089
+ 38619 string characters out of 6134842
+ 104788 words of memory out of 5000000
+ 5803 multiletter control sequences out of 15000+600000
  37650 words of font info for 71 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 26i,7n,19p,945b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.
-enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_conf.pdf (1 page, 50216 bytes).
+ 37i,7n,23p,945b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-di
+st/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/
+urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/
+utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pf
+b></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on bare_conf.pdf (3 pages, 2426022 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
- 17 compressed objects within 1 object stream
+ 44 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
