@@ -333,19 +333,19 @@
 \author{\IEEEauthorblockN{Erick Rivas}
 \IEEEauthorblockA{School of Engineering\\
 ITESM CSF\\
-México, D.F.\\
+M\'{e}xico, D.F.\\
 Email: erick.cecyt@gmail.com}
 \and
 \IEEEauthorblockN{Alejandra Espidio}
 \IEEEauthorblockA{School of Engineering\\
 ITESM CSF\\
-México, D.F.\\
+M\'{e}xico, D.F.\\
 Email: alejandra.espidio@gmail.com}
 \and
 \IEEEauthorblockN{Jonathan Ginsburg}
 \IEEEauthorblockA{School of Engineering\\
 ITESM CSF\\
-México, D.F.\\
+M\'{e}xico, D.F.\\
 Email: jginsburgn@gmail.com}}
 
 % conference papers do not typically use \thanks and this command
@@ -388,7 +388,7 @@ Email: jginsburgn@gmail.com}}
 
 This document intends to put forward an explanation for the creation of the game called Space Fall. It is a detailed report and is accompanied by images and pseudocode. The game uses a new technique of path selection for characters in a three-dimensional environment; it can be categorised as both, an RPG and an RTS, among others. The developing game engine was Unity 5.\\ \\
 Keywords: path selection, ai, unity, rpg, rts, game development.\\
-Palabras Clave: selección de caminos, ia, unity, desarrollo de videojuegos.
+Palabras Clave: selecci\'{o}n de caminos, ia, unity, desarrollo de videojuegos.
 \end{abstract}
 
 % no keywords
@@ -408,8 +408,8 @@ Palabras Clave: selección de caminos, ia, unity, desarrollo de videojuegos.
 
 
 
-\section{Introducción}
-Space Fall es un videojuego para dispositivos m\'{o}viles, de simulación. Del género RPG, RTS, Action, Adventure, Fighting, Puzzle, Shooter, Sports y Simulación arcade, el videojuego está desarrollado en una época futurista donde la misión es recolectar información de diversos planetas para que la especie humana prevalezca. El único objetivo del juego es el de entretener a los usuarios de cualquier género y edad, y que disfruten combatiendo obstáculos para ser héroes. Cada misión consiste en una expedición aérea muy similar a un salto en caída libre. El personaje principal es un humanoide, manipulado por el usuario, será el encargado de cumplir las tres diferentes misiones, una misión por cada planeta. Para crear el videojuego se usó el engine Unity versión 5.0 y se tomaron en cuenta diferentes aspectos como: el diseño gráfico de la interfaz, personaje y objetos, y un algoritmo utilizado para su desarrollo. 
+\section{Introducci\'{o}n}
+Space Fall es un videojuego para dispositivos m\'{o}viles, de simulaci\'{o}n. Del g\'{e}nero RPG, RTS, Action, Adventure, Fighting, Puzzle, Shooter, Sports y Simulaci\'{o}n arcade, el videojuego est\'{a} desarrollado en una \'{e}poca futurista donde la misi\'{o}n es recolectar informaci\'{o}n de diversos planetas para que la especie humana prevalezca. El \'{u}nico objetivo del juego es el de entretener a los usuarios de cualquier g\'{e}nero y edad, y que disfruten combatiendo obst\'{a}culos para ser h\'{e}roes. Cada misi\'{o}n consiste en una expedici\'{o}n a\'{e}rea muy similar a un salto en ca\'{i}da libre. El personaje principal es un humanoide, manipulado por el usuario, ser\'{a} el encargado de cumplir las tres diferentes misiones, una misi\'{o}n por cada planeta. Para crear el videojuego se us\'{o} el engine Unity versi\'{o}n 5.0 y se tomaron en cuenta diferentes aspectos como: el diseño gr\'{a}fico de la interfaz, personaje y objetos, y un algoritmo utilizado para su desarrollo. 
 
 \hfill E.R., A.E., y J.G.
  
@@ -417,17 +417,17 @@ Space Fall es un videojuego para dispositivos m\'{o}viles, de simulación. Del gé
 
 \section{Procedimiento}
 
-\subsection{Menú}
+\subsection{Men\'{u}}
 
-El menú se realizó utilizando objetos de la librería de interfaz de usuario UI de Unity. Algunos de estos objetos fueron botones, páneles y textos. Adicionalmente se siguió la guía referida en bibliografía para la creación de menús. Por otra parte el Asset Collection de Galactic Objects fue utilizado para toda la parte visual; éste se puede descargar de la Asset Store de Unity.
+El men\'{u} se realiz\'{o} utilizando objetos de la librer\'{i}a de interfaz de usuario UI de Unity. Algunos de estos objetos fueron botones, p\'{a}neles y textos. Adicionalmente se sigui\'{o} la gu\'{i}a referida en bibliograf\'{i}a para la creaci\'{o}n de men\'{u}s. Por otra parte el Asset Collection de Galactic Objects fue utilizado para toda la parte visual; \'{e}ste se puede descargar de la Asset Store de Unity.
 
-Básicamente se colocaron los objetos aludidos anteriormente en la escena de tal manera que la cámara pudiera observarlos como es convencional para los menúes de videojuegos. Posteriormente, los botones, se conectaron a una función que tiene como argumento un número entero el cual hace referencia al índice de escena de las opciones del videojuego de unity (Build Settings). Dicha función hace el cambio de escena correspondiente al nivel seleccionado o a la pantalla de puntajes altos.
+B\'{a}sicamente se colocaron los objetos aludidos anteriormente en la escena de tal manera que la c\'{a}mara pudiera observarlos como es convencional para los men\'{u}es de videojuegos. Posteriormente, los botones, se conectaron a una funci\'{o}n que tiene como argumento un n\'{u}mero entero el cual hace referencia al \'{i}ndice de escena de las opciones del videojuego de unity (Build Settings). Dicha funci\'{o}n hace el cambio de escena correspondiente al nivel seleccionado o a la pantalla de puntajes altos.
 
-\subsection{Algoritmo de Selección de Caminos}
+\subsection{Algoritmo de Selecci\'{o}n de Caminos}
 
-\subsection{Diseño Gráfico}
+\subsection{Diseño Gr\'{a}fico}
 
-El personaje principal que se usa en el videojuego, es un humanoide en 3D para crear animaciones cercanas a la realidad de la caída libre; cuando corre desde la nave espacial de Neways, cuando está cayendo por el espacio y cuando esquiva hacia la izquierda y derecha. Con el fin de que el usuario se sienta atraído y a gusto con el diseño del personaje, se escogió un humanoide que fuera amigable y de la mano con la historia del juego. El nombre del humanoide que se obtuvo de la página web Creative Crash es roboter 2.0, animado en el programa de Autodesk, Maya 2015. 
+El personaje principal que se usa en el videojuego, es un humanoide en 3D para crear animaciones cercanas a la realidad de la ca\'{i}da libre; cuando corre desde la nave espacial de Neways, cuando est\'{a} cayendo por el espacio y cuando esquiva hacia la izquierda y derecha. Con el fin de que el usuario se sienta atra\'{i}do y a gusto con el diseño del personaje, se escogi\'{o} un humanoide que fuera amigable y de la mano con la historia del juego. El nombre del humanoide que se obtuvo de la p\'{a}gina web Creative Crash es roboter 2.0, animado en el programa de Autodesk, Maya 2015. 
 
 \begin{figure}[h]
 \caption{Humanoide}
@@ -435,8 +435,8 @@ El personaje principal que se usa en el videojuego, es un humanoide en 3D para c
 \includegraphics[width=0.5\textwidth]{robotfront}
 \end{figure}
 
-Asimismo los demás objetos están creados con el mismo programa, sus colores y formas fueron escogidos así para que tuvieran armonía con el personaje principal de la historia y la historia. 
-La nave espacial está basada en los diseños de las naves futuristas que aparecen en películas como Star Trek o Star Wars.
+Asimismo los dem\'{a}s objetos est\'{a}n creados con el mismo programa, sus colores y formas fueron escogidos as\'{i} para que tuvieran armon\'{i}a con el personaje principal de la historia y la historia. 
+La nave espacial est\'{a} basada en los diseños de las naves futuristas que aparecen en pel\'{i}culas como Star Trek o Star Wars.
 
 \begin{figure}[h]
 \caption{Nave Espacial}
@@ -444,7 +444,7 @@ La nave espacial está basada en los diseños de las naves futuristas que aparecen
 \includegraphics[width=0.5\textwidth]{ship}
 \end{figure}
 
-Para que el personaje obtenga la energía, necesita capturar las latas de aceite que el programa Neways le pone en su camino y poder terminar la misión
+Para que el personaje obtenga la energ\'{i}a, necesita capturar las latas de aceite que el programa Neways le pone en su camino y poder terminar la misi\'{o}n
 
 \begin{figure}[h]
 \caption{Lata de Aceitel}
@@ -452,7 +452,7 @@ Para que el personaje obtenga la energía, necesita capturar las latas de aceite 
 \includegraphics[width=0.5\textwidth]{can}
 \end{figure}
 
-Cuando el humanoide termine la misión aterrizará en una plataforma de Neways
+Cuando el humanoide termine la misi\'{o}n aterrizar\'{a} en una plataforma de Neways
 
 \begin{figure}[h]
 \caption{Plataforma de Aterrizaje}
@@ -460,7 +460,7 @@ Cuando el humanoide termine la misión aterrizará en una plataforma de Neways
 \includegraphics[width=0.5\textwidth]{platform}
 \end{figure}
 
-Los logotipos están creados con el programa de Adobe Illustrator. Neways es creado por la NASA para cumplir la misión de que la especie humana prevalezca, por eso su, logo simula un planeta y contiene un aro, haciendo que el logo se parezca al de la NASA.
+Los logotipos est\'{a}n creados con el programa de Adobe Illustrator. Neways es creado por la NASA para cumplir la misi\'{o}n de que la especie humana prevalezca, por eso su, logo simula un planeta y contiene un aro, haciendo que el logo se parezca al de la NASA.
 
 \begin{figure}[h]
 \caption{Logo de Neways}
@@ -468,7 +468,7 @@ Los logotipos están creados con el programa de Adobe Illustrator. Neways es crea
 \includegraphics[width=0.5\textwidth]{neways}
 \end{figure}
 
-El logotipo del videojuego fue creado de acuerdo con la idea futurista y espacial. La tipografía que se usa, SPACE AGE, y el color verde hacen énfasis a la idea además de que crea armonía con la interfaz
+El logotipo del videojuego fue creado de acuerdo con la idea futurista y espacial. La tipograf\'{i}a que se usa, SPACE AGE, y el color verde hacen \'{e}nfasis a la idea adem\'{a}s de que crea armon\'{i}a con la interfaz
 
 \begin{figure}[h]
 \caption{Logo de Spacefall}
@@ -476,9 +476,9 @@ El logotipo del videojuego fue creado de acuerdo con la idea futurista y espacia
 \includegraphics[width=0.5\textwidth]{spacefall}
 \end{figure}
 
-Se usa de los assets de Unity el skybox en 2D del espacio y un mundo en 3D del que el humanoide tiene que recolectar la información pero mientras lo hace aparecen asteroides que tiene que esquivar y hay unos aros azules que cambian de color a verde cuando el humanoide entra en ellos para obtener puntos
+Se usa de los assets de Unity el skybox en 2D del espacio y un mundo en 3D del que el humanoide tiene que recolectar la informaci\'{o}n pero mientras lo hace aparecen asteroides que tiene que esquivar y hay unos aros azules que cambian de color a verde cuando el humanoide entra en ellos para obtener puntos
 
-Para administrar y almacenar la vida del personaje se crea un control. Su diseño está basado en la cara del humanoide, su ojo es donde se almacena la vida poniéndolo de color azul o blanco cuando está vacía, todo para generar armonía en la interfaz
+Para administrar y almacenar la vida del personaje se crea un control. Su diseño est\'{a} basado en la cara del humanoide, su ojo es donde se almacena la vida poni\'{e}ndolo de color azul o blanco cuando est\'{a} vac\'{i}a, todo para generar armon\'{i}a en la interfaz
 
 \begin{figure}[h]
 \caption{Vida Llena}
@@ -487,7 +487,7 @@ Para administrar y almacenar la vida del personaje se crea un control. Su diseño
 \end{figure}
 
 \begin{figure}[h]
-\caption{Vida Vacía}
+\caption{Vida Vac\'{i}a}
 \centering
 \includegraphics[width=0.5\textwidth]{emptylife}
 \end{figure}
@@ -497,15 +497,15 @@ Para administrar y almacenar la vida del personaje se crea un control. Su diseño
 
 
 
-\section{Conclusión}
+\section{Conclusi\'{o}n}
 
-La realización del presente videojuego fue altamente multidisciplinaria. Como equipo central, se unieron las habilidades de una aspirante a la Licenciatura de Artes Digitales, Alejandra Espidio, y las de dos aspirantes a la Ingeniería en Tecnologías Computacionales, Erick Rivas y Jonathan Ginsburg. También se utilizaron los conocimientos de terceros a los que se alude en los agradecimientos. Por tanto, Space Fall es un juego de arte e ingeniería en armonía. Tiene implementaciones de algoritmos innovadores y modelos con mucho toque artístico.
+La realizaci\'{o}n del presente videojuego fue altamente multidisciplinaria. Como equipo central, se unieron las habilidades de una aspirante a la Licenciatura de Artes Digitales, Alejandra Espidio, y las de dos aspirantes a la Ingenier\'{i}a en Tecnolog\'{i}as Computacionales, Erick Rivas y Jonathan Ginsburg. Tambi\'{e}n se utilizaron los conocimientos de terceros a los que se alude en los agradecimientos. Por tanto, Space Fall es un juego de arte e ingenier\'{i}a en armon\'{i}a. Tiene implementaciones de algoritmos innovadores y modelos con mucho toque art\'{i}stico.
 
-Adicionalmente, el algoritmo de selección de caminos en un espacio tridimensional abierto es de autoría propia y vuelve a plantear las posibilidades de hacer dicha tarea. Básicamente consiste en considerar un grafo, del cual los nodos se obtienen por cruces de planos en una esfera con centro en el punto pivote del personaje principal, y las aristas son seleccionadas de manera que dos nodos no queden separados sin necesidad de hacer una maya. Por lo tanto, se tiene un punto apuntando a casi todas las direcciones discretas en las que se puede mover el personaje. Esto genera que los puntos puedan tomar valores correspondientes a lo cerca o lejos que se encuentran de objetivos que se quieran alcanzar y que se quieran evadir. De esta manera el personaje tiene una tendencia a ir por los nodos que tengan peso favorable.
+Adicionalmente, el algoritmo de selecci\'{o}n de caminos en un espacio tridimensional abierto es de autor\'{i}a propia y vuelve a plantear las posibilidades de hacer dicha tarea. B\'{a}sicamente consiste en considerar un grafo, del cual los nodos se obtienen por cruces de planos en una esfera con centro en el punto pivote del personaje principal, y las aristas son seleccionadas de manera que dos nodos no queden separados sin necesidad de hacer una maya. Por lo tanto, se tiene un punto apuntando a casi todas las direcciones discretas en las que se puede mover el personaje. Esto genera que los puntos puedan tomar valores correspondientes a lo cerca o lejos que se encuentran de objetivos que se quieran alcanzar y que se quieran evadir. De esta manera el personaje tiene una tendencia a ir por los nodos que tengan peso favorable.
 
-Se espera continuar con el desarrollo del algoritmo central de nuestro videojuego para el futuro. Así también, consideramos la posibilidad de publicar el videojuego en alguna plataforma para poder conocer el pensamiento de los jugadores.
+Se espera continuar con el desarrollo del algoritmo central de nuestro videojuego para el futuro. As\'{i} tambi\'{e}n, consideramos la posibilidad de publicar el videojuego en alguna plataforma para poder conocer el pensamiento de los jugadores.
 
-\section{Bibliografía}
+\section{Bibliograf\'{i}a}
 
 
 \begingroup
@@ -620,7 +620,7 @@ Se espera continuar con el desarrollo del algoritmo central de nuestro videojueg
 % use section* for acknowledgment
 \section*{Agradecimientos}
 
-Para la realización del presente videojuego fue crucial contar con la ayuda y el entusiasmo de varias personas. La experiencia con las diversas herramientas que fueron utilizadas por parte de los que ayudaron fue imprescindible. Por otra parte, su amor por la materia correspondiente nos llevó a aprender de ellos. Mencionamos a algunas de estas personas: Samuel Ginsburg, Moises Alencastre y, el estudiante de doctorado, Octavio.
+Para la realizaci\'{o}n del presente videojuego fue crucial contar con la ayuda y el entusiasmo de varias personas. La experiencia con las diversas herramientas que fueron utilizadas por parte de los que ayudaron fue imprescindible. Por otra parte, su amor por la materia correspondiente nos llev\'{o} a aprender de ellos. Mencionamos a algunas de estas personas: Samuel Ginsburg, Moises Alencastre y, el estudiante de doctorado, Octavio.
 
 % trigger a \newpage just before the given reference
 % number - used to balance the columns on the last page
