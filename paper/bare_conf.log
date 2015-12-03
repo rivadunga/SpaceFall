@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 DEC 2015 01:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 DEC 2015 01:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -261,6 +261,26 @@ Missing character: There is no ó in font ptmr7t!
 Missing character: There is no ñ in font ptmr7t!
 Missing character: There is no á in font ptmr7t!
 Missing character: There is no ú in font ptmri7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ó in font ptmr7t!
+Missing character: There is no í in font ptmr7t!
+Missing character: There is no á in font ptmr7t!
+Missing character: There is no ó in font ptmr7t!
+Missing character: There is no í in font ptmr7t!
+Missing character: There is no í in font ptmr7t!
+Missing character: There is no ó in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no é in font ptmr7t!
+
+Underfull \vbox (badness 1048) has occurred while \output is active []
+
+Missing character: There is no á in font ptmr7t!
+Missing character: There is no á in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ó in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no í in font ptmr7t!
+Missing character: There is no ó in font ptmr7t!
 Missing character: There is no ó in font ptmri7t!
 Missing character: There is no ñ in font ptmri7t!
 Missing character: There is no á in font ptmri7t!
@@ -271,17 +291,14 @@ Missing character: There is no ñ in font ptmr7t!
 Missing character: There is no ó in font ptmr7t!
 Missing character: There is no á in font ptmr7t!
 
-Underfull \vbox (badness 1048) has occurred while \output is active []
-
-
 <images/robotfront.jpg, id=1, 1589.94pt x 1678.27pt>
 File: images/robotfront.jpg Graphic file (type jpg)
 
 <use images/robotfront.jpg>
-Package pdftex.def Info: images/robotfront.jpg used on input line 431.
+Package pdftex.def Info: images/robotfront.jpg used on input line 435.
 (pdftex.def)             Requested size: 258.0pt x 272.31871pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 431--432
+Overfull \hbox (6.0pt too wide) in paragraph at lines 435--436
  [][] 
  []
 
@@ -294,81 +311,30 @@ Missing character: There is no í in font ptmr7t!
 Missing character: There is no í in font ptmr7t!
 Missing character: There is no á in font ptmr7t!
 Missing character: There is no ñ in font ptmr7t!
-Missing character: There is no í in font ptmr7t!
-<images/ship.jpg, id=2, 963.6pt x 542.025pt>
-File: images/ship.jpg Graphic file (type jpg)
- <use images/ship.jpg>
-Package pdftex.def Info: images/ship.jpg used on input line 440.
-(pdftex.def)             Requested size: 258.0pt x 145.12465pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 440--441
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Missing character: There is no í in font ptmr7t!
-Missing character: There is no ó in font ptmr7t!
-<images/can.jpg, id=3, 614.295pt x 542.025pt>
-File: images/can.jpg Graphic file (type jpg)
- <use images/can.jpg>
-Package pdftex.def Info: images/can.jpg used on input line 448.
-(pdftex.def)             Requested size: 258.0pt x 227.64894pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 448--449
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Missing character: There is no ó in font ptmr7t!
-Missing character: There is no á in font ptmr7t!
-<images/platform.jpg, id=4, 963.6pt x 542.025pt>
-File: images/platform.jpg Graphic file (type jpg)
- <use images/platform.jpg>
-Package pdftex.def Info: images/platform.jpg used on input line 456.
-(pdftex.def)             Requested size: 258.0pt x 145.12465pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 456--457
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Missing character: There is no á in font ptmr7t!
-Missing character: There is no ó in font ptmr7t!
-<images/neways.png, id=5, 172.2435pt x 119.4864pt>
-File: images/neways.png Graphic file (type png)
- <use images/neways.png>
-Package pdftex.def Info: images/neways.png used on input line 464.
-(pdftex.def)             Requested size: 258.0pt x 179.00124pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 464--465
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Missing character: There is no í in font ptmr7t!
-Missing character: There is no é in font ptmr7t!
-Missing character: There is no á in font ptmr7t!
 Missing character: There is no í in font ptmr7t!
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-<images/spacefall.png, id=16, 231.7458pt x 92.5056pt>
-File: images/spacefall.png Graphic file (type png)
+<images/ship.jpg, id=11, 963.6pt x 542.025pt>
+File: images/ship.jpg Graphic file (type jpg)
+ <use images/ship.jpg>
+Package pdftex.def Info: images/ship.jpg used on input line 444.
+(pdftex.def)             Requested size: 258.0pt x 145.12465pt.
 
-<use images/spacefall.png>
-Package pdftex.def Info: images/spacefall.png used on input line 472.
-(pdftex.def)             Requested size: 258.0pt x 102.9972pt.
+Overfull \hbox (6.0pt too wide) in paragraph at lines 444--445
+ [][] 
+ []
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 472--473
+Missing character: There is no í in font ptmr7t!
+Missing character: There is no ó in font ptmr7t!
+<images/can.jpg, id=12, 614.295pt x 542.025pt>
+File: images/can.jpg Graphic file (type jpg)
+ <use images/can.jpg>
+Package pdftex.def Info: images/can.jpg used on input line 452.
+(pdftex.def)             Requested size: 258.0pt x 227.64894pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 452--453
  [][] 
  []
 
@@ -376,20 +342,29 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 472--473
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Missing character: There is no ó in font ptmr7t!
-Missing character: There is no ñ in font ptmr7t!
 Missing character: There is no á in font ptmr7t!
-Missing character: There is no é in font ptmr7t!
+<images/platform.jpg, id=13, 963.6pt x 542.025pt>
+File: images/platform.jpg Graphic file (type jpg)
+ <use images/platform.jpg>
+Package pdftex.def Info: images/platform.jpg used on input line 460.
+(pdftex.def)             Requested size: 258.0pt x 145.12465pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 460--461
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 Missing character: There is no á in font ptmr7t!
-Missing character: There is no í in font ptmr7t!
-Missing character: There is no í in font ptmr7t!
-<images/fulllife.png, id=17, 793.7655pt x 350.7504pt>
-File: images/fulllife.png Graphic file (type png)
+Missing character: There is no ó in font ptmr7t!
+<images/neways.png, id=14, 172.2435pt x 119.4864pt>
+File: images/neways.png Graphic file (type png)
+ <use images/neways.png>
+Package pdftex.def Info: images/neways.png used on input line 468.
+(pdftex.def)             Requested size: 258.0pt x 179.00124pt.
 
-<use images/fulllife.png>
-Package pdftex.def Info: images/fulllife.png used on input line 482.
-(pdftex.def)             Requested size: 258.0pt x 114.00322pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 482--483
+Overfull \hbox (6.0pt too wide) in paragraph at lines 468--469
  [][] 
  []
 
@@ -397,14 +372,52 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 482--483
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Missing character: There is no í in font ptmr7t!
-<images/emptylife.png, id=18, 793.7655pt x 350.7504pt>
+Missing character: There is no é in font ptmr7t!
+Missing character: There is no á in font ptmr7t!
+Missing character: There is no í in font ptmr7t!
+<images/spacefall.png, id=16, 231.7458pt x 92.5056pt>
+File: images/spacefall.png Graphic file (type png)
+
+<use images/spacefall.png>
+Package pdftex.def Info: images/spacefall.png used on input line 476.
+(pdftex.def)             Requested size: 258.0pt x 102.9972pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 476--477
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Missing character: There is no ó in font ptmr7t!
+[2 <./images/robotfront.jpg> <./images/ship.jpg> <./images/can.jpg> <./images/p
+latform.jpg>]
+Missing character: There is no ñ in font ptmr7t!
+Missing character: There is no á in font ptmr7t!
+Missing character: There is no é in font ptmr7t!
+Missing character: There is no á in font ptmr7t!
+Missing character: There is no í in font ptmr7t!
+Missing character: There is no í in font ptmr7t!
+ <images/fulllife.png, id=20, 793.7655pt x 350.7504pt>
+File: images/fulllife.png Graphic file (type png)
+
+<use images/fulllife.png>
+Package pdftex.def Info: images/fulllife.png used on input line 486.
+(pdftex.def)             Requested size: 258.0pt x 114.00322pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 486--487
+ [][] 
+ []
+
+Missing character: There is no í in font ptmr7t!
+<images/emptylife.png, id=21, 793.7655pt x 350.7504pt>
 File: images/emptylife.png Graphic file (type png)
 
 <use images/emptylife.png>
-Package pdftex.def Info: images/emptylife.png used on input line 488.
+Package pdftex.def Info: images/emptylife.png used on input line 492.
 (pdftex.def)             Requested size: 258.0pt x 114.00322pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 488--489
+Overfull \hbox (6.0pt too wide) in paragraph at lines 492--493
  [][] 
  []
 
@@ -413,16 +426,24 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Missing character: There is no ó in font ptmrc7t!
 Missing character: There is no í in font ptmrc7t!
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 502.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 502.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 502.
+
+Underfull \hbox (badness 4752) in paragraph at lines 510--514
+[]\OT1/ptm/m/n/10 Unity Tu-to-ri-als. \OT1/ptm/m/it/10 Cre-at-ing a Scene Se-le
+c-tion Menu.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 510--514
+\OT1/ptm/m/n/10 https://unity3d.com/learn/tutorials/modules/beginner/live-
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 510--514
+\OT1/ptm/m/n/10 training-archive/creating-a-scene-menu. Julio 24 de 2015.
+ []
+
 Missing character: There is no ó in font ptmr7t!
 Missing character: There is no ó in font ptmr7t!
-[2 <./images/robotfront.jpg> <./images/ship.jpg> <./images/can.jpg> <./images/p
-latform.jpg>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -437,11 +458,11 @@ Before submitting the final camera ready copy, remember to:
 [3 <./images/neways.png> <./images/spacefall.png> <./images/fulllife.png> <./im
 ages/emptylife.png>] (./bare_conf.aux) ) 
 Here is how much of TeX's memory you used:
- 2328 strings out of 493089
- 38560 string characters out of 6134842
- 103798 words of memory out of 5000000
- 5798 multiletter control sequences out of 15000+600000
- 35850 words of font info for 69 fonts, out of 8000000 for 9000
+ 2309 strings out of 493089
+ 38358 string characters out of 6134842
+ 102798 words of memory out of 5000000
+ 5786 multiletter control sequences out of 15000+600000
+ 34192 words of font info for 61 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  37i,7n,23p,945b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fon
@@ -449,7 +470,7 @@ ts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/urw/ti
 mes/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmbi8
 a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_conf.pdf (3 pages, 2426676 bytes).
+Output written on bare_conf.pdf (3 pages, 2426807 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
