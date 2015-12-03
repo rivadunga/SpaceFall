@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 DEC 2015 12:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 DEC 2015 12:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -357,108 +357,110 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3 <./images/can.jpg> <./images/platform.jpg> <./images/neways.png> <./images/s
 pacefall.png>]
-Underfull \hbox (badness 4752) in paragraph at lines 517--526
+Underfull \hbox (badness 4752) in paragraph at lines 521--530
 []\OT1/ptm/m/n/10 Unity Tu-to-ri-als. \OT1/ptm/m/it/10 Cre-at-ing a Scene Se-le
 c-tion Menu.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--526
+Underfull \hbox (badness 10000) in paragraph at lines 521--530
 \OT1/ptm/m/n/10 https://unity3d.com/learn/tutorials/modules/beginner/live-
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 517--526
+Underfull \hbox (badness 2189) in paragraph at lines 521--530
 \OT1/ptm/m/n/10 training-archive/creating-a-scene-menu. Julio 24 de 2015.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--526
+Underfull \hbox (badness 10000) in paragraph at lines 521--530
 
  []
 
 
-Underfull \hbox (badness 5878) in paragraph at lines 517--526
+Underfull \hbox (badness 5878) in paragraph at lines 521--530
 \OT1/ptm/m/n/10 NASA. Kepler-452b: Earth's Big-ger, Older Cousin --
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--526
+Underfull \hbox (badness 10000) in paragraph at lines 521--530
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--526
+Underfull \hbox (badness 10000) in paragraph at lines 521--530
 \OT1/ptm/m/n/10 Wikipedia. Gleise 667 Cc.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--526
+Underfull \hbox (badness 10000) in paragraph at lines 521--530
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--526
+Underfull \hbox (badness 10000) in paragraph at lines 521--530
 \OT1/ptm/m/n/10 The Guardian. Ke-pler 438b: Most Earth-like planet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--526
+Underfull \hbox (badness 10000) in paragraph at lines 521--530
 \OT1/ptm/m/n/10 ever dis-cov-ered could be home for alien life.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--526
+Underfull \hbox (badness 10000) in paragraph at lines 521--530
 \OT1/ptm/m/n/10 http://www.theguardian.com/science/2015/jan/06/earth-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--526
+Underfull \hbox (badness 10000) in paragraph at lines 521--530
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--526
+Underfull \hbox (badness 10000) in paragraph at lines 521--530
 \OT1/ptm/m/n/10 http://www.creativecrash.com/maya/downloads/character-
  []
 
-Missing character: There is no ó in font ptmr7t!
-Missing character: There is no ó in font ptmr7t!
 <images/firstsnippet.jpg, id=27, 636.3775pt x 681.54625pt>
 File: images/firstsnippet.jpg Graphic file (type jpg)
 
 <use images/firstsnippet.jpg>
-Package pdftex.def Info: images/firstsnippet.jpg used on input line 537.
+Package pdftex.def Info: images/firstsnippet.jpg used on input line 541.
 (pdftex.def)             Requested size: 258.0pt x 276.30551pt.
 
 <images/secondsnippet.jpg, id=28, 1032.85875pt x 766.865pt>
 File: images/secondsnippet.jpg Graphic file (type jpg)
 
 <use images/secondsnippet.jpg>
-Package pdftex.def Info: images/secondsnippet.jpg used on input line 538.
+Package pdftex.def Info: images/secondsnippet.jpg used on input line 542.
 (pdftex.def)             Requested size: 258.0pt x 191.55196pt.
 
 <images/thirdsnippet.jpg, id=29, 876.27374pt x 350.30875pt>
 File: images/thirdsnippet.jpg Graphic file (type jpg)
 
 <use images/thirdsnippet.jpg>
-Package pdftex.def Info: images/thirdsnippet.jpg used on input line 539.
+Package pdftex.def Info: images/thirdsnippet.jpg used on input line 543.
 (pdftex.def)             Requested size: 258.0pt x 103.14241pt.
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 537--540
+Overfull \hbox (18.0pt too wide) in paragraph at lines 541--544
 [][]
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 537--540
+Overfull \hbox (6.0pt too wide) in paragraph at lines 541--544
 []
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 537--540
+Overfull \hbox (6.0pt too wide) in paragraph at lines 541--544
 [] 
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./images/fulllife.png> <./images/emptylife.png>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -470,10 +472,10 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4 <./images/fulllife.png> <./images/emptylife.png> <./images/firstsnippet.jpg>
- <./images/secondsnippet.jpg>] [5
+[5
 
- <./images/thirdsnippet.jpg>] (./bare_conf.aux) ) 
+ <./images/firstsnippet.jpg> <./images/secondsnippet.jpg> <./images/thirdsnippe
+t.jpg>] (./bare_conf.aux) ) 
 Here is how much of TeX's memory you used:
  2329 strings out of 493089
  38795 string characters out of 6134842
@@ -482,12 +484,12 @@ Here is how much of TeX's memory you used:
  34192 words of font info for 61 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  37i,7n,23p,1129b,235s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf
--dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/typ
-e1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/tim
-es/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_conf.pdf (5 pages, 2574350 bytes).
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/
+base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pf
+b></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on bare_conf.pdf (5 pages, 2574994 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream
